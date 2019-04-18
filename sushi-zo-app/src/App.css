@@ -1,15 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Abel');
-*{
-  font-family: 'Abel', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rajdhani:600');
+
+* {
+  font-family: 'Open Sans', sans-serif;
 }
 
-body{
-  margin:0;
+h1, h2, h3, h4 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
 }
 
+h1 {
+  font-size: 44px;
 }
-.App>*{
-  font-size:50px;
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+p {
+  text-align: left;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  /*
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  */
 }
 
 header {
