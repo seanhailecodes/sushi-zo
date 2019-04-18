@@ -1,8 +1,42 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rajdhani:600');
+
+* {
+  font-family: 'Open Sans', sans-serif;
 }
-.App>*{
-  font-size:200px;
+
+h1, h2, h3, h4 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+p {
+  text-align: left;
+  font-size: 18px;
+}
+
+.App {
+  /*
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  */
 }
 
 header {
