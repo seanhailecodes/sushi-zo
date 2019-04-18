@@ -2,11 +2,11 @@
 *{
   font-family: 'Abel', sans-serif;
 }
+
 body{
   margin:0;
 }
-.App {
-  text-align: center;
+
 }
 .App>*{
   font-size:50px;
