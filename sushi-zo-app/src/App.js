@@ -9,18 +9,49 @@ import Locations from './components/Locations'
 import Press from './components/Press'
 import Footer from './components/Footer'
 
-const App = () => {
-  return (
-    <div className="App">
-      <Header />
-      <Nav />
-      <Omakase />
-      <AboutUs />
-      <Locations />
-      <Press />
-      <Footer />
-    </div>
-  )
+class App extends Component{
+  constructor(props){
+    super(props)
+    this.state = {
+      scrollY: 0,
+      sizeX: 0,
+      sizeY: 0
+    }
+    this.handleScroll=this.handleScroll.bind(this);
+    this.handleResize=this.handleResize.bind(this);
+  }
+  handleScroll(){
+    this.setState({
+      scrollY:window.scrollY
+    });
+  }
+  handleResize(){
+    this.setState({
+      sizeX:window.innerWidth,
+      sizeY:window.innerHeight
+    })
+  }
+  componentDidMount(){
+    window.addEventListener('scroll',this.handleScroll);
+    window.addEventListener('resize',this.handleResize);
+  }
+  render(){
+    return (
+      <div className="App">
+        <Header
+          scrollY={this.state.scrollY}
+          sizeX={this.state.sizeX}
+          sizeY={this.state.sizeY}
+        />
+        <Nav />
+        <Omakase />
+        <AboutUs />
+        <Locations />
+        <Press />
+        <Footer />
+      </div>
+    )
+  }
 }
 
-export default App
+export default App;
