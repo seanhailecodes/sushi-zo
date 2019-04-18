@@ -4,7 +4,6 @@ const opaqueLogo = require('../images/opaquelogo.png')
 const mainLogo = require('../images/mainlogo.jpg')
 
 const Nav = props => {
-  console.log(props.scrollY/props.sizeY)
   return (
     <div>
       <img

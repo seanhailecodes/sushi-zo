@@ -1,22 +1,42 @@
 .omakase {
-    display: flex;
+    display: grid;
+    grid-template-areas: "a b";
+    margin-top: 150px;
+    margin-bottom:300px;
+}
+.omakase>*{
+    margin:100px;
+}
+.italics{
+    margin:-30px -25px -40px 0;
+    font-style: italic;
+    font-size: 22px;
+    text-align: right;
+}
+
+#omakaseText{
+    grid-area: a;
+    position:relative;
+    width:500px;
+    margin: 0 0 0 230px;
 }
 
 .title {
     font-family: 'Open Sans', sans-serif;
-    font-size: 40;
-    text-align: left;
+    font-size: 40px;
+    text-align: right;
     margin: 20;
 }
 
 .text {
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 16;
-    text-align: left;
-    font-weight: 3;
+    font-size: 25px;
+    text-align: right;
+    font-weight: 300;
 }
-
+#omakaseFigure{
+    grid-area: b;
+    margin: 150px 220px 0px 0px;
+}
 #omakasePhoto {
-    width: 340px;
-    margin: 0 30 0 5;
+    width: 450px;
 }
