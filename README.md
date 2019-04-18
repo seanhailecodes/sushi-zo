@@ -6,16 +6,18 @@ Iterator is an application for developers - professional and student - and anybo
 
 ## TECHNOLOGIES USED
 
-## ERD
-
-![Iterator ERD](/readme_links/iterator_erd.png)
-
-![Iterator Timeline](/readme_links/iterator-timeline.png)
-
 ## WIREFRAMES
 
 ![wireframe1](/sushizo-wireframe1.png)
 
 ![wireframe2](/sushizo-wireframe2.png)
 
-## USER STORIES
+## STYLE GUIDES
+
+![styleguide1](/sushizo-styleguide1.png)
+
+![styleguide2](/sushizo-styleguide2.png)
+
+![styleguide3](/sushizo-styleguide3.png)
+
+![styleguide4](/sushizo-styleguide4.png)
