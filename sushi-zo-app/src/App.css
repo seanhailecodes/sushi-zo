@@ -1,3 +1,6 @@
+body{
+  margin:0;
+}
 .App {
   text-align: center;
 }
@@ -9,20 +12,3 @@ header {
   
 }
 
-nav {
-  background-color: #1E1E1E;
-}
-
-nav ul {
-  list-style-type: none;
-  text-transform: uppercase;
-}
-
-li {
-  display: inline-block;
-  
-}
-
-li a {
-  text-decoration: none;
-}

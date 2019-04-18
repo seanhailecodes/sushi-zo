@@ -26,6 +26,7 @@ class App extends Component{
     });
   }
   handleResize(){
+    console.log(window.innerHeight)
     this.setState({
       sizeX:window.innerWidth,
       sizeY:window.innerHeight
@@ -34,6 +35,10 @@ class App extends Component{
   componentDidMount(){
     window.addEventListener('scroll',this.handleScroll);
     window.addEventListener('resize',this.handleResize);
+    this.setState({
+      sizeX:window.innerWidth,
+      sizeY:window.innerHeight
+    })
   }
   render(){
     return (
@@ -43,7 +48,11 @@ class App extends Component{
           sizeX={this.state.sizeX}
           sizeY={this.state.sizeY}
         />
-        <Nav />
+        <Nav 
+          scrollY={this.state.scrollY}
+          sizeX={this.state.sizeX}
+          sizeY={this.state.sizeY}
+        />
         <Omakase />
         <AboutUs />
         <Locations />
