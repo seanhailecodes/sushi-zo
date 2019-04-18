@@ -7,7 +7,7 @@ const Header = props => {
       <div 
         id="landingImage"
         style={{
-          width:`${props.sizeX+45}px`,
+          width:`${props.sizeX}px`,
           height:`${props.sizeY}px`
         }}
         />
