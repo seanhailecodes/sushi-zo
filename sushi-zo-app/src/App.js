@@ -25,7 +25,6 @@ class App extends Component{
     });
   }
   handleResize(){
-    console.log(window.innerHeight)
     this.setState({
       sizeX:window.innerWidth,
       sizeY:window.innerHeight
@@ -52,7 +51,11 @@ class App extends Component{
           sizeX={this.state.sizeX}
           sizeY={this.state.sizeY}
         />
-        <Omakase />
+        <Omakase 
+          scrollY={this.state.scrollY}
+          sizeX={this.state.sizeX}
+          sizeY={this.state.sizeY}
+        />
         <AboutUs />
         <Locations />
         <Press />
