@@ -1,0 +1,12 @@
+.about-us {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-text {
+  width: 25%;
+  margin: 30px;
+  align-self: flex-end;
+}
+
+
