@@ -1,7 +1,25 @@
-.locations > nav {
-  
+.locations ul {
+
+}
+
+.location-info, .ny-info, .la-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.red-under {
+  border-bottom: 3px solid red;
 }
 
 li {
-  display: block-inline;
+
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  width: 30vw;
 }

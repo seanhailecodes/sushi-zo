@@ -1,16 +1,18 @@
 import React from 'react'
 
-const LocationNav = () => {
+const LocationNav = props => {
   return (
     <nav>
-      <li><h3>New York</h3></li>
-      <li><h3>Los Angeles</h3></li>
-      <li><h3>Tokyo</h3></li>
-      <li><h3>Bangkok</h3></li>
-      <li><h3>Hong Kong</h3></li>
+      <ul>
+        <li><h3 onClick={props.changeLocation} className={props.location === 'New York' ? 'red-under' : null}>New York</h3></li>
+        <li><h3 onClick={props.changeLocation} className={props.location === 'Los Angeles' ? 'red-under' : null}>Los Angeles</h3></li>
+        <li><h3 onClick={props.changeLocation} className={props.location === 'Tokyo' ? 'red-under' : null}>Tokyo</h3></li>
+        <li><h3 onClick={props.changeLocation} className={props.location === 'Bangkok' ? 'red-under' : null}>Bangkok</h3></li>
+        <li><h3 onClick={props.changeLocation} className={props.location === 'Hong Kong' ? 'red-under' : null}>Hong Kong</h3></li>
+      </ul>
+{/* props.location === 'New York' && style={borderBottom: '3px solid red'} */}
     </nav>
   )
 }
 
 export default LocationNav
-

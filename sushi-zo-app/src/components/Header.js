@@ -1,14 +1,13 @@
 import React from 'react'
 import './Header.css'
-const landingImage = require('../images/Header Image.jpeg')
 
-const Header = (props) => {
+const Header = props => {
   return (
     <header>
       <div 
         id="landingImage"
         style={{
-          width:`${props.sizeX}px`,
+          width:`${props.sizeX+45}px`,
           height:`${props.sizeY}px`
         }}
         />
