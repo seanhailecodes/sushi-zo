@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rajdhani:600');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+*{
+  font-family: 'Abel', sans-serif;
+}
 
 body{
   margin:0;
 }
-/* .App {
-  text-align: center;
-  font: 200
-} */
+
+}
+.App>*{
+  font-size:50px;
+}
 
 header {
   
