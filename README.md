@@ -47,8 +47,8 @@ Iterator is an application for developers - professional and student - and anybo
 
 ## WIREFRAMES
 
-![wireframe1](/Screen Shot 2019-04-18 at 11.31.23 AM.png)
+![wireframe1](/sushizo-wireframe1.png)
 
-![wireframe2](/Screen Shot 2019-04-18 at 11.32.59 AM.png)
+![wireframe2](/sushizo-wireframe2.png)
 
 ## USER STORIES
