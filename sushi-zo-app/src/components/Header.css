@@ -1,6 +1,6 @@
 #landingImage{
+    margin:0;
     z-index: -1;
-    height: 800px; 
     background-image: url('../images/Header Image.jpeg');
     background-attachment: fixed;
     background-position: center;

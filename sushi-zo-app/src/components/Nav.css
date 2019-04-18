@@ -1,0 +1,36 @@
+#mainNav{
+    margin-top:-80px;
+    height:60px;
+    padding: 10px;
+    position:relative;
+    width:100%;
+    font-size:20px !important;
+    opacity: 0.5;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.9),rgba(0,0,0,0.8));
+} 
+#opaquelogo{
+    width:60px;
+    height:60px;
+    padding:10px;
+    margin-top:-30px;
+}
+nav ul {
+    list-style-type: none;
+    text-transform: capitalize;
+    display: flex;
+}
+nav ul>*{
+    margin:auto;
+    margin-top:-3px;
+}
+
+
+li {
+    display: inline-block;      
+}
+  
+li a {
+    text-decoration: none;
+    color: white;
+}
+  
