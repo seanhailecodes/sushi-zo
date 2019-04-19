@@ -3,9 +3,10 @@
     position:relative;
     display: inline-flex;
     flex-flow: column wrap;
-    height: 1200px;
+    height: 900px;
     width: 90%;
     left:5%;
+    text-align: left;
 } 
 
 .pressHeader{

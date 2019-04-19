@@ -5,6 +5,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <footer>
+<<<<<<< Updated upstream
       <div id="contactUs">
         <h2>CONTACT US</h2>
         <div className="contact-info">
@@ -32,6 +33,10 @@ const Footer = () => {
           </div>
         </div>
         <p className="copyright">&copy;2019 Zo Corporation. All rights reserved.</p>
+=======
+      <div id="contactUsJump">
+      <h1>CONTACT US</h1>
+>>>>>>> Stashed changes
       </div>
     </footer>
   )

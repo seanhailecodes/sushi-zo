@@ -2,7 +2,7 @@ import React from 'react'
 
 const LocationNav = props => {
   return (
-    <nav id="locationNav">
+    <nav>
       <ul>
         <li><h3 onClick={props.changeLocation} onTouchStart={props.changeLocation} className={props.location === 'New York' ? 'red-under' : null}>New York</h3></li>
         <li><h3 onClick={props.changeLocation} onTouchStart={props.changeLocation} className={props.location === 'Los Angeles' ? 'red-under' : null}>Los Angeles</h3></li>

@@ -16,11 +16,17 @@ class Locations extends Component {
 
   render() {
     return (
+<<<<<<< Updated upstream
       <div className="locations">
         <div className="location-text">
           <h2>LOCATIONS</h2>
           <LocationNav changeLocation={this.changeLocation} location={this.state.location}/>
         </div>
+=======
+      <div className="locations" id="locationJump">
+        <h2>LOCATIONS</h2>
+        <LocationNav changeLocation={this.changeLocation} location={this.state.location}/>
+>>>>>>> Stashed changes
         <LocationInfo location={this.state.location} />
       </div>
     )

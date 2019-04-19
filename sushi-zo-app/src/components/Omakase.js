@@ -1,9 +1,9 @@
 import React from 'react'
-import '../components/omakase.css'
+import '../components/Omakase.css'
 
 const Omakase = props => {
   return (
-    <div className="omakase" id="omakaseMain">
+    <div className="omakase" id="omakaseJump">
       <div id="omakaseText">
         <div
           style={
