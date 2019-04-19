@@ -1,0 +1,27 @@
+.locations h2 {
+  text-align: center;
+}
+
+.location-info, .ny-info, .la-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.red-under {
+  border-bottom: 3px solid red;
+}
+
+li {
+
+}
+
+.locations h2, h3, h4 {
+  text-align: center;
+  margin: 0;
+}
+
+.location-info img {
+  width: 30vw;
+}
+

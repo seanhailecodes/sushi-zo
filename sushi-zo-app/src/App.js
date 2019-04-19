@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './App.css'
-
 import Header from './components/Header'
 import Nav from './components/Nav'
 import Omakase from './components/Omakase'
@@ -8,6 +7,7 @@ import AboutUs from './components/AboutUs'
 import Locations from './components/Locations'
 import Press from './components/Press'
 import Footer from './components/Footer'
+import Food from './components/Food'
 
 class App extends Component{
   constructor(props){
@@ -34,6 +34,10 @@ class App extends Component{
   componentDidMount(){
     window.addEventListener('scroll',this.handleScroll);
     window.addEventListener('resize',this.handleResize);
+    this.setState({
+      sizeX:window.innerWidth,
+      sizeY:window.innerHeight
+    })
   }
   render(){
     return (
@@ -43,11 +47,22 @@ class App extends Component{
           sizeX={this.state.sizeX}
           sizeY={this.state.sizeY}
         />
-        <Nav />
-        <Omakase />
+        <Nav 
+          scrollY={this.state.scrollY}
+          sizeX={this.state.sizeX}
+          sizeY={this.state.sizeY}
+        />
+        <Omakase 
+          scrollY={this.state.scrollY}
+          sizeX={this.state.sizeX}
+          sizeY={this.state.sizeY}
+        />
         <AboutUs />
+        <Food />
         <Locations />
-        <Press />
+        <Press 
+          sizeX={this.state.sizeX}
+        />
         <Footer />
       </div>
     )

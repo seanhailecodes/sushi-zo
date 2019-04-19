@@ -1,8 +1,7 @@
 import React from 'react'
 import './Header.css'
-const landingImage = require('../images/Header Image.jpeg')
 
-const Header = (props) => {
+const Header = props => {
   return (
     <header>
       <div 
