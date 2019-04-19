@@ -1,5 +1,5 @@
-.locations ul {
-
+.locations h2 {
+  text-align: center;
 }
 
 .location-info, .ny-info, .la-info {
@@ -16,10 +16,12 @@ li {
 
 }
 
-h3 {
+.locations h2, h3, h4 {
   text-align: center;
+  margin: 0;
 }
 
-img {
+.location-info img {
   width: 30vw;
 }
+

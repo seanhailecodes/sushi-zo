@@ -1,12 +1,14 @@
 .about-us {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .about-us-text {
   width: 25%;
   margin: 30px;
-  align-self: flex-end;
 }
 
-
+img {
+  width: 60vw; 
+}

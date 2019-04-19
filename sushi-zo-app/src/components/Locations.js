@@ -17,8 +17,10 @@ class Locations extends Component {
   render() {
     return (
       <div className="locations">
-        <h2>LOCATIONS</h2>
-        <LocationNav changeLocation={this.changeLocation} location={this.state.location}/>
+        <div className="location-text">
+          <h2>LOCATIONS</h2>
+          <LocationNav changeLocation={this.changeLocation} location={this.state.location}/>
+        </div>
         <LocationInfo location={this.state.location} />
       </div>
     )
