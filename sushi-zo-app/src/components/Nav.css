@@ -1,12 +1,25 @@
 #mainLogo{
     position:fixed;
     top: 8%;
-    left: 8.5%;
+    left: 7.84%;
     opacity: 1;
-    width: 100px;
+    width: 105px;
+    height:225px;
+    background:black;
     z-index: 2;
+    transform: rotate(0deg);
+    transition: opacity 1s ease-in-out;
     /* display:none; */
     animation: fade-in-down 1s ease-in-out;
+}
+
+#mainLogo>*{
+    transform: scale(0.9);
+    position:fixed;
+    width: 285px;
+    margin-left:-91px;
+    margin-top:7px;
+    transform: rotate(0deg);
 }
 @keyframes fade-in-down{
     0%{
@@ -17,7 +30,6 @@
     100%{
         -webkit-transform:translateY(0);
         transform:translateY(0);
-        opacity:1;
     }
 }
 
@@ -30,7 +42,7 @@
     z-index:3;
     font-size:20px !important;
     opacity: 1;
-    background-image: linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.8));
+    background: black;
     animation: fade-in-up 1s ease-in-out;
 }
 @keyframes fade-in-up{
@@ -53,7 +65,7 @@
 }
 nav ul {
     list-style-type: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     display: flex;
 }
 nav ul>*{
