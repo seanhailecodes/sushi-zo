@@ -29,6 +29,9 @@ const Food = props => {
                 <img
                 id="sushiPhoto" alt="" src={require('../images/sushi1.jpeg')}
                 />
+                <img
+                id="sushiPhoto" alt="" src={require('../images/Image2.jpg')}
+                />
                 </div>
             </div>
         // </div>
