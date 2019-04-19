@@ -1,19 +1,4 @@
 .about-us {
-<<<<<<< Updated upstream
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-us-text {
-  width: 25%;
-  margin: 30px;
-}
-
-img {
-  width: 60vw; 
-}
-=======
   display: grid;
   grid-template-areas: "a a b c";
   margin-top: 150px;
@@ -45,4 +30,3 @@ img {
   text-align: right;
   font-weight: 300;
 }
->>>>>>> Stashed changes
