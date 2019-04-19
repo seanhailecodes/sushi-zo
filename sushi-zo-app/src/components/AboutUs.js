@@ -3,7 +3,7 @@ import './AboutUs.css'
 
 const AboutUs = () => {
   return (
-    <div className="about-us">
+    <div className="about-us" id="aboutUs">
       <img src={require("../images/About Us.png")} alt="About text" />
       <div className="about-us-text">
         <h2>ABOUT US</h2>

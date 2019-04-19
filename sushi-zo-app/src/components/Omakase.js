@@ -1,9 +1,9 @@
 import React from 'react'
-import './Omakase.css'
+import '../components/omakase.css'
 
 const Omakase = props => {
   return (
-    <div className="omakase">
+    <div className="omakase" id="omakaseMain">
       <div id="omakaseText">
         <div
           style={
@@ -32,7 +32,7 @@ const Omakase = props => {
           }
         >
           <img
-              id="omakasePhoto"
+              id="omakasePhoto" alt=""
               src={require('../images/Omekase Image.jpg')}
             />
         </div>

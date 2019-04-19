@@ -4,6 +4,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Rajdhani', sans-serif;
   font-weight: 600;
@@ -38,14 +42,14 @@ body {
   margin: 0;
 }
 
-.App {
-  /*
+/* .App {
+  
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  */
-}
+ 
+} */
 
 header {
   
