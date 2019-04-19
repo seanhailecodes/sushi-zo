@@ -1,12 +1,25 @@
 #mainLogo{
     position:fixed;
     top: 8%;
-    left: 8.5%;
+    left: 7.84%;
     opacity: 1;
-    width: 100px;
+    width: 105px;
+    height:225px;
+    background:black;
     z-index: 2;
+    transform: rotate(0deg);
+    transition: opacity 1s ease-in-out;
     /* display:none; */
     animation: fade-in-down 1s ease-in-out;
+}
+
+#mainLogo>*{
+    transform: scale(0.9);
+    position:fixed;
+    width: 285px;
+    margin-left:-91px;
+    margin-top:7px;
+    transform: rotate(0deg);
 }
 @keyframes fade-in-down{
     0%{
@@ -17,7 +30,6 @@
     100%{
         -webkit-transform:translateY(0);
         transform:translateY(0);
-        opacity:1;
     }
 }
 #mainNav{
