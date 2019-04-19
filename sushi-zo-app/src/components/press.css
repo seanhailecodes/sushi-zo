@@ -1,0 +1,26 @@
+.mediaContainer {
+    font-size: 10px;
+    position:relative;
+    display: inline-flex;
+    flex-flow: column wrap;
+    height: 700px;
+    width: 90%;
+    left:5%;
+    text-align: left;
+}
+
+.pressHeader{
+    margin:100px 0 20px 0;
+    text-align: center;
+}
+.mediaContainer>* {
+    margin: auto;
+    width: 30%;
+    background: rgba(0,0,0,0);
+    transition: background 0.5s ease-in-out;
+    padding: 0 20px 30px 50px;
+}
+.mediaContainer>*:hover{
+    background: rgba(0,0,0,0.05);
+    cursor: pointer;
+}
