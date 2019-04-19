@@ -8,15 +8,19 @@
 #aboutPart1 {
   grid-area: b;
   width: 28%;
-  margin: 0px;
-  margin: -30px 0 0 100px;
+  margin: 0px 0 0 100px;
 }
 
 #aboutPart2 {
   grid-area: c;
   width: 30%;
   margin: 0px;
-  margin: -160px 0 100px 400px;
+  margin: -150px 0 100px 400px;
+}
+
+.about-us-title {
+  margin: 0px;
+  margin: -70px 0 0 100px;
 }
 
 #aboutUsPhoto {
