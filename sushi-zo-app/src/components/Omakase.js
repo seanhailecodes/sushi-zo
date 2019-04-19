@@ -32,7 +32,7 @@ const Omakase = props => {
           }
         >
           <img
-              id="omakasePhoto"
+              id="omakasePhoto" alt=""
               src={require('../images/Omekase Image.jpg')}
             />
         </div>
