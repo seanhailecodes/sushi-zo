@@ -4,7 +4,7 @@ import '../components/omakase.css'
 const Omakase = props => {
   console.log((1400-Math.abs(900-props.scrollY*1.2))/1000-0.2)
   return (
-    <div className="omakase">
+    <div className="omakase" id="omakaseMain">
       <div id="omakaseText">
         <div
           style={

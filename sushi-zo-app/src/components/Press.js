@@ -3,7 +3,7 @@ import PressMedia from './PressMedia'
 
 const Press = props => {
   return (
-    <div className="press">
+    <div className="press" id="press">
       <div className="pressHeader"><h1>Press | Media | Awards</h1></div>
         <div className="mediaContainer">
           <PressMedia title={"2018 Michelin"}
