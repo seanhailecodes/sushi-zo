@@ -2,14 +2,13 @@ import React from 'react'
 import './Omakase.css'
 
 const Omakase = props => {
-  console.log((1400-Math.abs(900-props.scrollY*1.2))/1000-0.2)
   return (
     <div className="omakase">
       <div id="omakaseText">
         <div
           style={
             {marginTop:`${props.scrollY/4-100}px`,
-            opacity:`${(1400-Math.abs(1080-props.scrollY*1.2))/850-0.55}`
+            opacity:`${(1400-Math.abs(1250-props.scrollY*1.4))/800-0.6}`
             }
           }
         >
@@ -28,7 +27,7 @@ const Omakase = props => {
           style={
             {
               marginTop:`-${props.scrollY/6-300}px`,
-              opacity:`${(1400-Math.abs(1080-props.scrollY*1.2))/850-0.55}`
+              opacity:`${(1400-Math.abs(1250-props.scrollY*1.4))/800-0.6}`
             }
           }
         >
