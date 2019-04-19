@@ -60,7 +60,9 @@ class App extends Component{
         <AboutUs />
         <Food />
         <Locations />
-        <Press />
+        <Press 
+          sizeX={this.state.sizeX}
+        />
         <Footer />
       </div>
     )
