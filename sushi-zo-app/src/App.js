@@ -58,7 +58,7 @@ class App extends Component{
           sizeY={this.state.sizeY}
         />
         <AboutUs />
-        <Food />
+        {/* <Food /> */}
         <Locations />
         <Press 
           sizeX={this.state.sizeX}
