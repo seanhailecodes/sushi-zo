@@ -42,7 +42,7 @@
     z-index:3;
     font-size:20px !important;
     opacity: 1;
-    background-image: linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.8));
+    background: black;
     animation: fade-in-up 1s ease-in-out;
 }
 @keyframes fade-in-up{
@@ -65,7 +65,7 @@
 }
 nav ul {
     list-style-type: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     display: flex;
 }
 nav ul>*{
