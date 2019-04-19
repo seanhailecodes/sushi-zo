@@ -4,6 +4,7 @@ const opaqueLogo = require('../images/opaquelogo.png')
 const mainLogo = require('../images/mainlogo.jpg')
 
 const Nav = props => {
+  console.log((props.scrollY-45)/props.sizeY);
   return (
     <div>
       <img
@@ -19,7 +20,7 @@ const Nav = props => {
       />
       <nav
         id="mainNav"
-        style={(props.scrollY>props.sizeY-80)?{
+        style={(props.scrollY>props.sizeY-65)?{
           top:"0",
           marginTop:"0",
           position:"fixed"
