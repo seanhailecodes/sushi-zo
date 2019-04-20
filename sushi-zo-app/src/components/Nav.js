@@ -48,7 +48,7 @@ const Nav = props => {
           <li><a href="#locationJump">locations</a></li>
           <li><a href="#pressJump">press</a></li>
           <li><a href="#contactUsJump">contact</a></li>
-          {/* <li><button><a href="">book</a></button></li> */}
+          {/* <li><button><a href="">reservation</a></button></li> */}
         </ul>
       </nav>
     </div>
