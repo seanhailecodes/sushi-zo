@@ -1,6 +1,6 @@
 import React from 'react'
 import PressMedia from './PressMedia'
-import './Press.css';
+import './press.css';
 
 const Press = props => {
   return (
