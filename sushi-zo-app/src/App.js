@@ -7,7 +7,7 @@ import AboutUs from './components/AboutUs'
 import Locations from './components/Locations'
 import Press from './components/Press'
 import Footer from './components/Footer'
-import Food from './components/Food'
+// import Food from './components/Food'
 
 class App extends Component{
   constructor(props){
@@ -58,7 +58,7 @@ class App extends Component{
           sizeY={this.state.sizeY}
         />
         <AboutUs />
-        <Food />
+        {/* <Food /> */}
         <Locations />
         <Press 
           sizeX={this.state.sizeX}
