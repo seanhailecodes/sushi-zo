@@ -1,23 +1,35 @@
 import React from 'react'
 import './Nav.css'
 const opaqueLogo = require('../images/opaquelogo.png')
-const mainLogo = require('../images/mainlogo.jpg')
+const logoTop = require('../images/logoTop.png')
+const logoMid = require('../images/logoMid.png')
+const logoDown = require('../images/logoDown.png')
 
 const Nav = props => {
-  console.log((props.scrollY-45)/props.sizeY);
+  const ratio = props.scrollY/props.sizeY>=0.915;
+  console.log((props.scrollY+(225-(props.sizeY*0.08)))/props.sizeY);
   return (
     <div>
-      <img
-        id="mainLogo"
-        src={mainLogo}
+      <div
         style={
-          (props.scrollY/props.sizeY>0.83&&props.scrollY/props.sizeY<0.915?{
-            marginTop: `${props.sizeY-props.scrollY-150}px`
-          }:(props.scrollY/props.sizeY>=0.915?({
-            top:"0"
-          }):(null)))
-        }
-      />
+          (props.scrollY/props.sizeY>0.45?{
+            opacity:"0"
+          }:(null))}
+          id="mainLogo"    
+      >
+        <img
+          id="logoTop"
+          src={logoTop}
+        />
+        <img
+          id="logoMid"
+          src={logoMid}
+        />
+        <img
+          id="logoDown"
+          src={logoDown}
+        />
+      </div>
       <nav
         id="mainNav"
         style={(props.scrollY>props.sizeY-65)?{
@@ -36,7 +48,7 @@ const Nav = props => {
           <li><a href="#locationJump">locations</a></li>
           <li><a href="#pressJump">press</a></li>
           <li><a href="#contactUsJump">contact</a></li>
-          {/* <li><button><a href="">book</a></button></li> */}
+          {/* <li><button><a href="">reservation</a></button></li> */}
         </ul>
       </nav>
     </div>

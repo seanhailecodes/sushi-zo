@@ -1,6 +1,8 @@
 import React from 'react'
 import PressMedia from './PressMedia'
 
+import './press.css';
+
 const Press = props => {
   return (
     <div className="press" id="pressJump">
