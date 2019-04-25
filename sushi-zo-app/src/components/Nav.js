@@ -43,12 +43,12 @@ const Nav = props => {
             id="opaquelogo"
             src={opaqueLogo}
           />
-          <li><a href="#omakaseMain">omakase</a></li>
-          <li><a href="#aboutUs">about us</a></li>
-          <li><a href="#contactUs">contact</a></li>
-          <li><a href="#locationNav">locations</a></li>
-          <li><a href="#press">press</a></li>
-          {/* <li><button><a href="">book</a></button></li> */}
+          <li><a href="#omakaseJump">omakase</a></li>
+          <li><a href="#aboutUsJump">about us</a></li>
+          <li><a href="#locationJump">locations</a></li>
+          <li><a href="#pressJump">press</a></li>
+          <li><a href="#contactUsJump">contact</a></li>
+          {/* <li><button><a href="">reservation</a></button></li> */}
         </ul>
       </nav>
     </div>

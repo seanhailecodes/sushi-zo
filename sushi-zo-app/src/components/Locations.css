@@ -1,5 +1,5 @@
-.locations ul {
-
+.locations h2 {
+  text-align: center;
 }
 
 .location-info, .ny-info, .la-info {
@@ -8,18 +8,76 @@
   justify-content: space-evenly;
 }
 
+.rest-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.city-info {
+  display: flex;
+  justify-content: center;  
+  width: 90%;
+}  
+
+.city-info p {
+  width: 40%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .red-under {
   border-bottom: 3px solid red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.under {
+  text-decoration: underline;
 }
 
 li {
 
 }
 
-h3 {
+.locations h2, h3, h4 {
   text-align: center;
+  margin: 0;
 }
 
-img {
-  width: 30vw;
+.location-info img {
+  width: 35vw;
+}
+
+@media (max-width: 415px) {
+
+  .locations ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .locations li {
+    margin: 10px;
+  }
+  
+  .location-info, .ny-info, .la-info, .city-info{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .nym-info, .lad-info {
+    margin-bottom: 80px;
+  }
+
+  .city-info p {
+    width: 90%;
+    text-align: center;
+  }
+
+  .location-info img {
+    width: 70vw;
+  }
 }

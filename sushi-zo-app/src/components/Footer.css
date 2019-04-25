@@ -1,0 +1,45 @@
+footer {
+  color: white;
+  background-color: black;
+  padding-top: 10px;
+  margin: 0;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-city {
+  width: 15vw;
+}
+  
+
+footer p {
+  color: rgba(255,255,255,0.7);
+  font-size: 16px;
+  margin: 40px 0;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 415px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-city {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,12 +1,39 @@
 .about-us {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-areas: "a a b c";
+  margin-top: 150px;
+  margin-bottom:300px;
 }
 
-.about-us-text {
-  width: 25%;
-  margin: 30px;
-  align-self: flex-end;
+#aboutPart1 {
+  grid-area: b;
+  width: 45%;
+  margin: 0px 0 0 100px;
+  color: rgb(122, 117, 117);
 }
 
+#aboutPart2 {
+  grid-area: c;
+  width: 30%;
+  margin: 0px;
+  margin: -150px 0 100px 400px;
+  
+}
 
+.about-us-title {
+  margin: 0px;
+  margin: -70px 0 0 100px;
+  font-size: 30px; 
+}
+
+#aboutUsPhoto {
+  grid-area: a a;
+  width: 500px;
+  margin: -50px 0 100px 300px;
+}
+
+.text {
+  font-size: 25px;
+  text-align: right;
+  font-weight: 300;
+}
