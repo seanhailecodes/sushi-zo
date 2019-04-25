@@ -8,7 +8,7 @@
     background:black;
     z-index: 2;
     transform: rotate(0deg);
-    transition: opacity 1s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
     /* display:none; */
     animation: fade-in-down 1s ease-in-out;
     pointer-events: none;
@@ -37,9 +37,8 @@
 #mainNav{
     margin-top:-64px;
     height:45px;
-    padding: 10px;
+    padding: 10px 0;
     position:relative;
-    width:100%;
     z-index:3;
     font-size:20px !important;
     opacity: 1;
@@ -62,10 +61,29 @@
     width:60px;
     height:60px;
     padding:10px;
-    margin-top:-38px;
+    margin-top:-28px;
+    transition: opacity 0.35s ease-in-out;
+}
+#downArrow{
+    width:34px;
+    height:26px;
+    filter: invert(70%);
+    padding:15px 23px;
+    margin-top:-15px;
+    transition: opacity 0.35s ease-in-out;
+    animation: point-down 1.5s ease-in-out infinite;
+}
+#downArrowContainer{
+    width:80px;
+}
+@keyframes point-down{
+    50%{
+        margin-top: -20px;
+    }
 }
 nav ul {
     list-style-type: none;
+    padding: 0 !important;
     text-transform: capitalize;
     display: flex;
 }

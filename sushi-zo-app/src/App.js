@@ -52,7 +52,7 @@ class App extends Component{
   }
   render(){
     return (
-      <div className="App">
+      <div className="App" id="homeJump">
         <Header
           scrollY={this.state.scrollY}
           sizeX={this.state.sizeX}
@@ -69,9 +69,17 @@ class App extends Component{
           sizeX={this.state.sizeX}
           sizeY={this.state.sizeY}
         />
-        <AboutUs />
+        <AboutUs 
+          scrollY={this.state.scrollY}
+          sizeX={this.state.sizeX}
+          sizeY={this.state.sizeY}
+        />
         {/* <Food /> */}
-        <Locations />
+        <Locations 
+          scrollY={this.state.scrollY}
+          sizeX={this.state.sizeX}
+          sizeY={this.state.sizeY}
+        />
         <Press 
           sizeX={this.state.sizeX}
         />

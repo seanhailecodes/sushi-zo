@@ -16,7 +16,13 @@ class Locations extends Component {
 
   render() {
     return (
-      <div className="locations">
+      <div
+        className="locations"
+        id="locationJump"
+        style={{
+          opacity:`${(2400-Math.abs(4800-this.props.scrollY*1.3))/900-0.6}`
+        }}
+      >
         <h2>LOCATIONS</h2>
         <LocationNav changeLocation={this.changeLocation} location={this.state.location}/>
         <LocationInfo location={this.state.location} />

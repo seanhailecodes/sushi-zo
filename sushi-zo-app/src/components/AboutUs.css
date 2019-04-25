@@ -1,8 +1,11 @@
 .about-us {
   display: grid;
   grid-template-areas: "a a b c";
-  margin-top: 150px;
+  margin-top: 300px;
   margin-bottom:300px;
+}
+#aboutUsJump{
+  padding-top:150px;
 }
 
 #aboutPart1 {
