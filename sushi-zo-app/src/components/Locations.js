@@ -16,7 +16,7 @@ class Locations extends Component {
 
   render() {
     return (
-      <div className="locations" id="locationJump">
+      <div className="locations">
         <h2>LOCATIONS</h2>
         <LocationNav changeLocation={this.changeLocation} location={this.state.location}/>
         <LocationInfo location={this.state.location} />
