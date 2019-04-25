@@ -7,7 +7,7 @@ const logoDown = require('../images/logoDown.png')
 
 const Nav = props => {
   const ratio = props.scrollY/props.sizeY>=0.915;
-  console.log((props.scrollY+(225-(props.sizeY*0.08)))/props.sizeY);
+  // console.log((props.scrollY+(225-(props.sizeY*0.08)))/props.sizeY);
   return (
     <div>
       <div
