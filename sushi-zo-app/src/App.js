@@ -7,6 +7,7 @@ import AboutUs from './components/AboutUs'
 import Locations from './components/Locations'
 import Press from './components/Press'
 import Footer from './components/Footer'
+import Backdrop from './components/Backdrop'
 // import Food from './components/Food'
 
 class App extends Component{
@@ -15,7 +16,8 @@ class App extends Component{
     this.state = {
       scrollY: 0,
       sizeX: 0,
-      sizeY: 0
+      sizeY: 0,
+      strokes: false
     }
     this.handleScroll=this.handleScroll.bind(this);
     this.handleResize=this.handleResize.bind(this);
@@ -24,6 +26,15 @@ class App extends Component{
     this.setState({
       scrollY:window.scrollY
     });
+    if (this.state.scrollY/this.state.sizeY>0.9 && !this.state.strokes){
+      this.setState({
+        strokes:true
+      });
+    }else if(this.state.scrollY/this.state.sizeY==0 && this.state.strokes){
+      this.setState({
+        strokes:false
+      });
+    }
   }
   handleResize(){
     this.setState({
@@ -41,7 +52,7 @@ class App extends Component{
   }
   render(){
     return (
-      <div className="App">
+      <div className="App" id="homeJump">
         <Header
           scrollY={this.state.scrollY}
           sizeX={this.state.sizeX}
@@ -52,14 +63,23 @@ class App extends Component{
           sizeX={this.state.sizeX}
           sizeY={this.state.sizeY}
         />
+        {this.state.strokes&&<Backdrop/>}
         <Omakase 
           scrollY={this.state.scrollY}
           sizeX={this.state.sizeX}
           sizeY={this.state.sizeY}
         />
-        <AboutUs />
+        <AboutUs 
+          scrollY={this.state.scrollY}
+          sizeX={this.state.sizeX}
+          sizeY={this.state.sizeY}
+        />
         {/* <Food /> */}
-        <Locations />
+        <Locations 
+          scrollY={this.state.scrollY}
+          sizeX={this.state.sizeX}
+          sizeY={this.state.sizeY}
+        />
         <Press 
           sizeX={this.state.sizeX}
         />

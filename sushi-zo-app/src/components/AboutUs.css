@@ -1,8 +1,11 @@
 .about-us {
   display: grid;
   grid-template-areas: "a a b c";
-  margin-top: 150px;
+  margin-top: 300px;
   margin-bottom:300px;
+}
+#aboutUsJump{
+  padding-top:150px;
 }
 
 #aboutPart1 {
@@ -36,4 +39,14 @@
   font-size: 25px;
   text-align: right;
   font-weight: 300;
+}
+@media (max-width: 415px) {
+  #aboutUsPhoto{
+    opacity: 1 !important;
+    margin-top: 0 !important;
+  }
+  .about-us-text{
+    opacity: 1 !important;
+    margin-top: 0 !important;
+  }
 }

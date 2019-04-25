@@ -2,6 +2,7 @@ footer {
   color: white;
   background-color: black;
   padding-top: 10px;
+  margin-top:100px !important;
   margin: 0;
 }
 
@@ -22,7 +23,7 @@ footer h2 {
 footer p {
   color: rgba(255,255,255,0.7);
   font-size: 16px;
-  margin: 40px 0;
+  margin: 40px 0 0 0;
 }
 
 .copyright {
