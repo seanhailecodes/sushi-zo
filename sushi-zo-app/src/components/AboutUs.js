@@ -1,5 +1,5 @@
 import React from 'react'
-import './AboutUs.css'
+import './AboutUsStyleSheet.css'
 
 const AboutUs = props => {
   return (

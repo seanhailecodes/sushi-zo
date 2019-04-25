@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import LocationNav from './LocationNav'
 import LocationInfo from './LocationInfo'
 
-import './Locations.css'
+import './LocationsStyleSheet.css'
 
 class Locations extends Component {
   constructor(props){

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Nav.css'
+import './NavStyleSheet.css'
 const opaqueLogo = require('../images/opaquelogo.png')
 const downArrow = require('../images/down-arrow.png')
 const logoTop = require('../images/logoTop.png')
