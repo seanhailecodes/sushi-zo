@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../components/PressMedia.css'
+import '../components/PressMediaStyleSheet.css'
 
 const PressMedia = (props) => {
     return (

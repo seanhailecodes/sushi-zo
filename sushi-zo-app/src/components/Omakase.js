@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/Omakase.css'
+import '../components/OmakaseStyleSheet.css'
 
 const Omakase = props => {
   return (

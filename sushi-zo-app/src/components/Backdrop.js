@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Backdrop.css'
+import './BackdropStyleSheet.css'
 const stroke1 = require('../images/Strokes-V1.gif')
 const stroke2 = require('../images/Strokes-V2.gif')
 const stroke1dup = require('../images/Strokes-V1-dup.gif')

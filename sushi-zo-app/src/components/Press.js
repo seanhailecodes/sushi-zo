@@ -1,6 +1,6 @@
 import React from 'react'
 import PressMedia from './PressMedia'
-import './Press.css';
+import './PressStyleSheet.css';
 import FreeScrollBar from 'react-free-scrollbar';
 const pressImage = require('../images/Press Image.jpeg')
 
