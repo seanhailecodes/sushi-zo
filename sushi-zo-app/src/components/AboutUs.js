@@ -13,12 +13,10 @@ const AboutUs = () => {
           <br />
             Our rice is meticulously cooked, seasoned with a unique blend of vinegars
           </p>
-        </div>
-        <div className="text" id="aboutPart2">
           <p>and served at body temperature, to create the perfect  partner to the "neta".
             <br />
             <br />
-            With many of our sushi selections, we use perfectly matched accompaniment for the particular "neta", which may include our unique  soy sauce, sea, salt and other ingredients.</p>
+            With many of our sushi selections, we use perfectly matched accompaniment for the particular "neta", which may include our unique soy sauce, sea, salt and other ingredients.</p>
         </div>
       </div>
     </div>

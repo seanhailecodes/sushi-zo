@@ -1,13 +1,14 @@
 import React from 'react'
 import PressMedia from './PressMedia'
 import './Press.css';
+import FreeScrollBar from 'react-free-scrollbar';
 
 const Press = props => {
   return (
     <div className="press" id="pressJump">
-      <div className="pressHeader"><h1>Press | Media | Awards</h1></div>
-        <div 
-          className="mediaContainer">
+      <div className="pressHeader"><h1>PRESS</h1></div>
+        <div className="mediaContainer" style={{width: '35%', height: '60vh'}}>
+        <FreeScrollBar>
           <PressMedia title={"2018 | MICHELIN"}
                       text={"Sushi Zo NYC have been awarded a Michelin Star."}
                       link={"Read More"}
@@ -48,6 +49,7 @@ const Press = props => {
                       link={"Read More"}
                       url={"https://latimesblogs.latimes.com/dailydish/2008/10/the-michelin-gu.html"}
           />
+          </FreeScrollBar>
         </div>
     </div>
   )
