@@ -1,12 +1,7 @@
 import React from 'react'
 import PressMedia from './PressMedia'
-<<<<<<< HEAD
 import './Press.css';
 import FreeScrollBar from 'react-free-scrollbar';
-=======
-
-import './press.css';
->>>>>>> 41b5e76cc97a649a52dfa0c89be428a7073ae2fe
 
 const Press = props => {
   return (
