@@ -39,3 +39,13 @@
 #omakasePhoto {
     width: 450px;
 }
+@media (max-width: 415px) {
+    #omakaseTextActual{
+      opacity: 1 !important;
+      margin-top: 0 !important;
+    }
+    #omakasePhotoContainer{
+      opacity: 1 !important;
+      margin-top: 0 !important;
+    }
+}

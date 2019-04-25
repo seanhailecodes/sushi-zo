@@ -2,7 +2,6 @@ import React from 'react'
 import './AboutUs.css'
 
 const AboutUs = props => {
-  console.log((props.scrollY-1000)/10-200)
   return (
     <div className="about-us" id="aboutUsJump">
       <img 

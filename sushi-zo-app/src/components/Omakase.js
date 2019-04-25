@@ -6,6 +6,7 @@ const Omakase = props => {
     <div className="omakase" id="omakaseJump">
       <div id="omakaseText">
         <div
+          id="omakaseTextActual"
           style={
             {marginTop:`${props.scrollY/4-100}px`,
             opacity:`${(1400-Math.abs(1250-props.scrollY*1.4))/800-0.6}`
@@ -24,6 +25,7 @@ const Omakase = props => {
         id="omakaseFigure"
       >
         <div
+          id="omakasePhotoContainer"
           style={
             {
               marginTop:`-${props.scrollY/6-300}px`,

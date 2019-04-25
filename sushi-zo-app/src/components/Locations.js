@@ -20,7 +20,7 @@ class Locations extends Component {
         className="locations"
         id="locationJump"
         style={{
-          opacity:`${(2400-Math.abs(4800-this.props.scrollY*1.3))/900-0.6}`
+          opacity:`${(2400-Math.abs(4800-this.props.scrollY*1.3))/900-0.8}`
         }}
       >
         <h2>LOCATIONS</h2>
