@@ -5,6 +5,7 @@
 }
 
 body{
+  z-index:-2;
   background-image: url('./images/calligraphyBackdrop.jpg');
   background-attachment: fixed;
   background-position: center;

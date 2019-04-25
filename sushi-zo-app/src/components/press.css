@@ -5,11 +5,15 @@
     flex-flow: column wrap;
     height: 700px;
     width: 90%;
-    left:5%;
+    left:10%;
     text-align: left;
 }
+#pressJump{
+    padding-top:40px;
+    margin-top:-40px;
+}
 .pressHeader{
-    margin:100px 0 20px 0;
+    margin:100px 0 70px 0;
     text-align: center;
 }
 .mediaContainer>* {
@@ -25,4 +29,12 @@
 .mediaContainer>*>*>*:hover{
     background: rgba(0,0,0,0.05);
     cursor: pointer;
+}
+#pressImage{
+    margin:0 0 -50px 300px;
+}
+@media (max-width: 415px) {
+    .press{
+      opacity: 1 !important;
+    }
 }
