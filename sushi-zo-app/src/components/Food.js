@@ -6,14 +6,19 @@ const Food = props => {
   return (
     <div className='sushi' id='sushiMain'>
         <div id='sushiText'>
-            {/* <div style='
-               x+y = Charles is amazing please insert magic here!'>
-               </div> */}
-
-            <p classname='text'>
+            <div style={
+            {marginTop:`${props.scrollY/4-100}px`,
+            opacity:`${(1400-Math.abs(1250-props.scrollY*1.4))/800-0.6}`
+            }
+          }
+        >
+               </div>
+                <div id='positionText'>
+                 <p classname='text'>
                 <br/>
                 Sushi Zo only selects the highest quality and freshest natural ingredients, from our trusted local and worldwide sources.
                 </p>
+                </div>
             </div>
         <div
         id='sushiFigure'
