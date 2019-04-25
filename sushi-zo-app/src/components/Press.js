@@ -2,10 +2,17 @@ import React from 'react'
 import PressMedia from './PressMedia'
 import './Press.css';
 import FreeScrollBar from 'react-free-scrollbar';
+const pressImage = require('../images/Press Image.jpeg')
 
 const Press = props => {
   return (
-    <div className="press" id="pressJump">
+    <div 
+      className="press"
+      id="pressJump"
+      style={{
+        opacity:`${(2400-Math.abs(7000-props.scrollY*1.3))/900-1.1}`
+      }}
+    >
       <div className="pressHeader"><h1>PRESS</h1></div>
         <div className="mediaContainer" style={{width: '35%', height: '60vh'}}>
         <FreeScrollBar>
@@ -51,6 +58,10 @@ const Press = props => {
           />
           </FreeScrollBar>
         </div>
+        <img
+          id="pressImage"
+          src={pressImage}
+        />
     </div>
   )
 }

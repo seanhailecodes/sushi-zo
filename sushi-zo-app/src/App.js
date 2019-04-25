@@ -30,10 +30,10 @@ class App extends Component{
       this.setState({
         strokes:true
       });
-    }else if(this.state.scrollY/this.state.sizeY==0 && this.state.strokes){
-      this.setState({
-        strokes:false
-      });
+    // }else if(this.state.scrollY/this.state.sizeY==0 && this.state.strokes){
+    //   this.setState({
+    //     strokes:false
+    //   });
     }
   }
   handleResize(){
@@ -81,7 +81,9 @@ class App extends Component{
           sizeY={this.state.sizeY}
         />
         <Press 
+          scrollY={this.state.scrollY}
           sizeX={this.state.sizeX}
+          sizeY={this.state.sizeY}
         />
         <Footer />
       </div>

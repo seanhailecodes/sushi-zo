@@ -1,25 +1,26 @@
 #mainLogo{
     position:fixed;
-    top: 8%;
-    left: 7.84%;
+    top: 13%;
+    left: 50%;
+    margin-left:-50px;
     opacity: 1;
-    width: 105px;
-    height:225px;
-    background:black;
-    z-index: 2;
+    width: 100px;
+    height:205px;
+    /* background:black; */
+    z-index: 1;
     transform: rotate(0deg);
-    transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
     /* display:none; */
     animation: fade-in-down 1s ease-in-out;
     pointer-events: none;
 }
 
 #mainLogo>*{
-    transform: scale(0.9);
+    transform: scale(0.8);
     position:fixed;
-    width: 285px;
-    margin-left:-91px;
-    margin-top:7px;
+    width: 300px;
+    margin-left:-100px;
+    margin-top:5px;
     transform: rotate(0deg);
 }
 @keyframes fade-in-down{
@@ -43,7 +44,7 @@
     font-size:20px !important;
     opacity: 1;
     background: black;
-    animation: fade-in-up 1s ease-in-out;
+    /* animation: fade-in-up 1s ease-in-out; */
 }
 @keyframes fade-in-up{
     0%{
@@ -60,21 +61,21 @@
 #opaquelogo{
     width:60px;
     height:60px;
-    padding:10px;
+    padding:10px 20px;
     margin-top:-28px;
     transition: opacity 0.35s ease-in-out;
 }
 #downArrow{
-    width:34px;
-    height:26px;
+    width:30px;
+    height:22px;
     filter: invert(70%);
-    padding:15px 23px;
+    padding:15px 35px;
     margin-top:-15px;
     transition: opacity 0.35s ease-in-out;
     animation: point-down 1.5s ease-in-out infinite;
 }
 #downArrowContainer{
-    width:80px;
+    width:100px;
 }
 @keyframes point-down{
     50%{
@@ -83,22 +84,37 @@
 }
 nav ul {
     list-style-type: none;
-    padding: 0 !important;
-    text-transform: capitalize;
+    padding: 1px 0 !important;
+    text-transform: uppercase;
     display: flex;
 }
 nav ul>*{
     margin:auto;
+    width: 100px;
     margin-top:-10px;
 }
 
-
 li {
-    display: inline-block;      
+    display: inline-block;   
+    text-align: center !important;   
 }
   
 li a {
     text-decoration: none;
     color: rgba(255,255,255,0.8);
 }
-  
+.reservationLoc{
+    opacity:0.6;
+}
+.reservationLoc:hover{
+    border-top: 0.5px solid rgba(255,255,255,0.5);
+    border-bottom: 0.5px solid rgba(255,255,255,0.5);
+}
+
+.navLoc{
+    opacity:1;
+}
+.navLoc:hover{
+    border-top: 0.5px solid rgba(255,255,255,0.8);
+    border-bottom: 0.5px solid rgba(255,255,255,0.8);
+}
