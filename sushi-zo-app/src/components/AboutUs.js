@@ -23,7 +23,7 @@ const AboutUs = props => {
         }
       >
         <div className="about-us-title"><h2>ABOUT US</h2></div>
-        <div className="text" id="aboutPart1">
+        <div className="text" id="aboutUsText">
           <p>Sushi Zo is created "Ittai-ken"-style. Ittai-jan is when the neta (the seafood)and shari (sushi rice) unite in perfect harmony. This balance is the most important aspect of sushi.     
           <br/>
           <br/>

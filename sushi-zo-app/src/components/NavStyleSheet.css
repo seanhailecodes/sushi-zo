@@ -77,6 +77,13 @@
 #downArrowContainer{
     width:100px;
 }
+
+#resLoc {
+    border: 1px red solid;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
 @keyframes point-down{
     50%{
         margin-top: -20px;
@@ -111,8 +118,15 @@ li a {
     border-bottom: 0.5px solid rgba(255,255,255,0.5);
 }
 
+#reservationReservation {
+    border: 1px red solid;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
 .navLoc{
     opacity:1;
+    cursor: pointer;
 }
 .navLoc:hover{
     border-top: 0.5px solid rgba(255,255,255,0.8);

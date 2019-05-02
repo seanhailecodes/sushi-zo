@@ -21,7 +21,12 @@
     width: 30%;
     background: rgba(0,0,0,0);
     padding: 0 20px 30px 50px;
+    text-align: left;
 }
+#mediaHeader {
+    text-align: left;
+}
+
 .mediaContainer>*>*>*{
     background: rgba(0,0,0,0);
     transition: background 0.5s ease-in-out;
@@ -34,7 +39,7 @@
     margin:0 0 -50px 300px;
 }
 @media (max-width: 415px) {
-    .press{
-      opacity: 1 !important;
+.press{
+    opacity: 1 !important;
     }
 }

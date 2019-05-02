@@ -5,7 +5,7 @@ const PressMedia = (props) => {
     return (
         <div>
             <a className="mediaText" href={props.url}>
-            <h3>{props.title}</h3>
+            <h3 className="mediaHeader">{props.title}</h3>
             <p className="mediaText">{props.text}</p>
             </a>
         </div>

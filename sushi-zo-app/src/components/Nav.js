@@ -88,7 +88,7 @@ class Nav extends Component{
                   }
                 })
               }}
-            >reservation</a></li>
+            >book</a></li>
           </ul>
           ):(
           <ul>
@@ -134,6 +134,7 @@ class Nav extends Component{
             class="navLoc"
             href="#contactUsJump">contact</a></li>
             <li><a
+            id="resLoc"
             class="navLoc"
               onClick={()=>{
                 this.setState(prevState=>{
@@ -142,7 +143,7 @@ class Nav extends Component{
                   }
                 })
               }}
-            >reservation</a></li>
+            >book</a></li>
           </ul>
           )}
         </nav>

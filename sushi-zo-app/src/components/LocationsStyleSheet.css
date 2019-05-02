@@ -59,8 +59,12 @@ li {
   margin: 0;
 }
 
+h3 {
+  cursor: pointer;
+}
+
 .location-info img {
-  width: 35vw;
+  height: 400px;
 }
 
 @media (max-width: 415px) {
