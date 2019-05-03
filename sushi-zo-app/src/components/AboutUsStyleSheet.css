@@ -1,15 +1,14 @@
 .about-us {
-  display: grid;
-  grid-template-areas: "a a b c";
-  margin-top: 300px;
-  margin-bottom:300px;
+  margin: 300px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
 }
 #aboutUsJump{
   padding-top:150px;
 }
 
 #aboutUsText {
-  grid-area: b;
   width: 45%;
   margin: 0px 0 0 100px;
   color: rgb(122, 117, 117);
@@ -22,9 +21,8 @@
 }
 
 #aboutUsPhoto {
-  grid-area: a a;
   width: 500px;
-  margin: -50px 0 100px 300px;
+  margin: 100px 0 100px 300px;
 }
 
 .text {

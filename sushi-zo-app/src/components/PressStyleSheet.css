@@ -1,16 +1,18 @@
 .mediaContainer {
     font-size: 10px;
-    position:relative;
     display: inline-flex;
     flex-flow: column wrap;
     height: 700px;
     width: 90%;
-    left:10%;
     text-align: left;
 }
 #pressJump{
     padding-top:40px;
     margin-top:-40px;
+}
+.pressContent{
+    display: flex;
+    justify-content: space-evenly;
 }
 .pressHeader{
     margin:100px 0 70px 0;
@@ -36,10 +38,17 @@
     cursor: pointer;
 }
 #pressImage{
-    margin:0 0 -50px 300px;
+    margin:0 0 -50px 0px;
 }
 @media (max-width: 415px) {
 .press{
     opacity: 1 !important;
+    }
+    .pressHeader {
+      display: flex;
+      flex-direction: column;
+    }    
+    .pressHeader>* {
+      width: 75%;
     }
 }

@@ -14,6 +14,7 @@ const Press = props => {
       }}
     >
       <div className="pressHeader"><h1>PRESS</h1></div>
+        <div className="pressContent">
         <div className="mediaContainer" style={{width: '35%', height: '60vh'}}>
         <FreeScrollBar>
           <PressMedia title={"2018 | MICHELIN"}
@@ -62,6 +63,7 @@ const Press = props => {
           id="pressImage"
           src={pressImage}
         />
+        </div>
     </div>
   )
 }
