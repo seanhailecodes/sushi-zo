@@ -2,7 +2,7 @@
 
 ## An Elegant High-end Sushi Restaurant with a Modern Flair
 
-Iterator is an application for developers - professional and student - and anybody interested in the wide wide world of programming to share ideas and solutions in order to tackle the most difficult challenges faced by today’s developers. The two primary tables in the iterator_db will hold Users and Articles, which will allow all users create/update/delete both their profiles and posted articles. This allows for a clean and clear issues/resolution/ideas management solutions platform.
+An 8 person team conisting of 4 engineers and 4 UX designers collaboraet to create this local eatery's revamped web page.
 
 ## TECHNOLOGIES USED
 
