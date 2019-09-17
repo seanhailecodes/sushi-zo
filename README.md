@@ -2,7 +2,7 @@
 
 ## An Elegant High-end Sushi Restaurant with a Modern Flair
 
-An 8 person team conisting of 4 engineers and 4 UX designers collaboraet to create this local eatery's revamped web page.
+An 8 person team conisting of 4 engineers and 4 UX designers collaborate to create revampe this local high-end sushi eatery's  web page.
 
 ## TECHNOLOGIES USED
 
